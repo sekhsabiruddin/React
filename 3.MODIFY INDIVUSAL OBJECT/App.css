@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.outer-box div {
+  min-height: 200px;
+  min-width: 250px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.outer-box div h1 {
+  text-align: center;
+}
+.outer-box div h4 {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.outer-box div .button-box {
+  text-align: center;
+}
+.outer-box div .button-box button {
+  margin: 10px;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
+}
