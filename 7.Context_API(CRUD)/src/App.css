@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  border: 3px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+form .input-box {
+  flex: 0 0 25%;
+}
+form .input-box input {
+  margin: 10px;
+  outline: none;
+  padding: 0.4rem 0rem;
+  width: 70%;
+}
+form .input-box button {
+  cursor: pointer;
+  border: 0;
+  padding: 0.6rem 2rem;
+  background: blue;
+  color: #fff;
+}
+.show-data h2 {
+  text-align: center;
+}
+table {
+  border: 1px solid red;
+  margin: auto;
+  width: 80%;
+  margin-top: 1rem;
+}
+table {
+  border-collapse: collapse;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+  padding: 1rem 1.3rem;
+}
