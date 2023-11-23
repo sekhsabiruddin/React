@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border: 0.5px solid gainsboro;
+}
+header a {
+  margin: 10px 10px;
+  text-decoration: none;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.card-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.img-box img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+}
+.single-product .thumbail {
+  text-align: center;
+  display: block;
+  min-height: 30%;
+}
+.small-img img {
+  max-width: 136px;
+  max-height: 100px;
+  margin-left: 20px;
+
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 1rem 0rem;
+}
