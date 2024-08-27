@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
